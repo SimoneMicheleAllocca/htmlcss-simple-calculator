@@ -8,3 +8,99 @@ img{
     max-width: 100%;
 }
 
+header{
+    background-color: rgb(207 207 207);
+    text-align: center;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    
+}
+
+body{
+    width: 900px;
+    margin: auto;
+}    
+   
+
+
+/* display */
+.display{
+    background-color: black;
+    height: 100px;
+}    
+    
+.number-display{
+    display: flex;
+    font-size:100px;
+    color: green;
+    font-family: 'Seven Segment';
+    justify-content: end;
+}
+
+/* calculator */
+.container{
+    background-color: rgb(207 207 207);
+    display: flex;
+    border: 1 solid black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/* button */
+.button, .math{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.item{
+    width: calc(100%/3 - 30px);
+    margin: 5px;
+}
+
+.math{
+    flex-direction: column;
+    
+}
+
+.math-item{
+    width: calc(100%/3 - 30px);
+    margin: 5px;
+}
+
+.button-column{
+    flex-grow: 1;
+}
+
+.item-column{
+    flex-grow: 3;
+}
+
+/* last row */
+.equal{
+    flex: 1;
+}
+.zero{
+    flex-grow:2;
+}
+
+/* style buttons */
+button{
+    background-color: rgb(187 187 187);
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Seven Segment';
+    font-weight: 800;
+    border:0px;
+}
+
+.orange{
+    background-color: orangered;
+    color: white;
+}
+
+.blue{
+    background-color: rgb(119 168 176);
+    color: white;
+}
+
+
