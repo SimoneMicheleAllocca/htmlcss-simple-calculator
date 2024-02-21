@@ -18,8 +18,9 @@ header{
 
 body{
    
-    width: 500px;
+    width: 600px;
     margin: auto;
+
 }    
    
 
@@ -27,12 +28,12 @@ body{
 /* display */
 .display{
     background-color: black;
-    height: 100px;
+    height: 90px;
 }    
     
 .number-display{
     display: flex;
-    font-size:100px;
+    font-size:90px;
     color: green;
     font-family: 'Seven Segment';
     justify-content: end;
@@ -50,7 +51,7 @@ body{
 .button, .math{
     display: flex;
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 20px;
 }
 
 .item{
