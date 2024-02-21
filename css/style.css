@@ -17,7 +17,8 @@ header{
 }
 
 body{
-    width: 900px;
+   
+    width: 500px;
     margin: auto;
 }    
    
@@ -53,7 +54,7 @@ body{
 }
 
 .item{
-    width: calc(100%/3 - 30px);
+    width: calc(100%/3 - 10px);
     margin: 5px;
 }
 
@@ -63,8 +64,9 @@ body{
 }
 
 .math-item{
-    width: calc(100%/3 - 30px);
+    width: calc(100%/3 - 5px);
     margin: 5px;
+    border-radius: 5px;
 }
 
 .button-column{
